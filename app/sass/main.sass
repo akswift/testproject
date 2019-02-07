@@ -1,0 +1,705 @@
+$mon: 'Montserrat', sans-serif;
+$rob: 'Roboto Slab', serif;
+
+.hidden-shadow
+  display: none
+
+*
+  margin: 0px
+  padding: 0px
+
+body
+  color: #555555
+  font-family: $mon
+  overflow-x: hidden
+
+header
+  background-image: url('../img/home-background.jpg')
+  height: 770px
+  background-size: cover
+  background-position: 48%
+
+.container
+  width: 100%;
+  max-width: 1141px;
+  margin: 0px auto
+
+.header-button
+  width: 176px
+  height: 46px
+  border: 2px solid white
+  display: block
+  margin: 47px auto 0px auto
+  border-radius: 2px
+  font-family: $mon
+  font-size: 16px
+  text-decoration: none
+  color: #FFFFFF
+  text-transform: uppercase
+  font-weight: 700
+  text-align: center
+  line-height: 46px
+
+.header-button:hover
+  background-color: #FFFFFF
+  color: #c0301c
+
+
+.header-cap
+  width: 100%
+  display: flex
+  justify-content: space-between
+
+.header-logo
+  font-family: $mon
+  font-size: 24px
+  font-weight: bold
+  color: #CCCCCC
+  margin-top: 35px
+  margin-left: 4px
+
+nav
+  ul
+    display: flex
+    li
+      display: flex
+      justify-content: space-between
+      a 
+        color: #FFFFFF
+        font-family: $mon
+        font-size: 14px
+        font-weight: bold
+        text-decoration: none
+        margin-left: 34px
+        margin-top: 42px
+
+h1
+  font-size: 48px
+  text-align: center
+  font-family: $mon
+  text-transform: uppercase
+  font-weight: 600
+  color: #FFFFFF
+  margin-top: 250px
+  letter-spacing: 0.5px
+
+h2
+  font-size: 20px
+  text-align: center
+  font-family: $rob
+  font-weight: 400
+  color: #FFFFFF
+  margin-top: 15px
+
+.bars
+  display: none
+  margin-top: 22px
+  color: #ffffff
+  font-size: 30px
+  text-align: right
+
+.burgerblock
+  display: none
+
+  ul 
+    display: block
+
+    li 
+      a 
+        margin: 0px
+        line-height: 30px
+        text-align: right
+
+
+//------------------Services-------------------------
+
+h3
+  font-weight: 700
+  text-transform: uppercase
+  font-size: 20px
+  text-align: center
+  padding-top: 96px
+
+h3:after
+  display: block
+  content: ''
+  height: 2px
+  width: 50px
+  background-color: #555555
+  margin: 0px auto
+  margin-top: 25px
+
+h4
+  font-family: $rob 
+  text-align: center
+  margin-top: 23px
+  font-weight: 400
+
+.services-box
+  display: flex
+  justify-content: space-between
+  padding-bottom: 78px
+
+.services-capsule
+  width: 33%
+
+.services-capsule-logo
+  width: 84px
+  height: 84px
+  border: 2px solid #dddddd
+  border-radius: 44px
+  margin: 0px auto
+  margin-top: 72px
+  font-weight: 700
+  line-height: 84px
+  font-size: 50px
+  font-family: $rob
+  text-align: center
+  color: #c0301c
+
+.services-capsule-logo:hover
+  color: #ffffff
+  background-color: #c0301c
+
+.services-capsule-title
+  text-align: center
+  text-transform: uppercase
+  font-weight: 700
+  margin-top: 27px
+  font-size: 14px
+
+.services-capsule-text
+  text-align: justify
+  font-family: $rob
+  font-size: 14px
+  line-height: 22px
+  max-width: 345px
+  margin: 17px auto 0px auto
+
+
+//------------------About us-------------------------
+
+#aboutus
+  padding-bottom: 100px;
+
+.aboutus-box
+  display: flex
+  justify-content: space-between
+  margin-top: 67px
+
+.aboutus-capsule
+  width: 49%
+  text-align: justify
+  font-size: 14px
+  line-height: 25px
+
+.aboutus-slick
+  margin-top: 35px
+  position: relative
+
+.aboutus-slick-img
+  position: relative
+
+.aboutus-slick-img
+  img 
+    margin: 0px auto
+
+.aboutus-slick-img:hover 
+  .aboutus-slick-hover 
+    display: block
+
+
+.aboutus-slick-capsule
+ 
+.slick-arrow
+  position: absolute
+  display: block
+  width: 35px
+  height: 38px
+  opacity: 0.4
+  color: #555555
+  background-color: #555555
+  z-index: 1000
+  border: none
+
+.slick-arrow:focus
+  opacity: 1
+  background-color: #c0301c
+
+.slick-arrow:hover
+  opacity: 1
+  background-color: #c0301c
+
+.slick-prev
+  left: 12px
+  top: 125px
+
+.slick-next
+  right: 8px
+  top: 125px
+
+.aboutus-slick-title
+  text-align: center
+  margin-top: 16px
+  text-transform: uppercase
+
+.slick-social
+  position: absolute
+  top: 190px
+  display: flex
+  justify-content: center
+  width: 286px
+  a 
+    width: 30px
+    height: 30px
+    display: block
+    font-size: 20px
+    line-height: 30px
+    text-align: center
+    color: #ffffff
+    &:hover
+      background-color: #c0301c
+
+.aboutus-slick-hover
+  display: none
+  width: 263px
+  height: 250px
+  background-color: black
+  opacity: 0.4
+  position: absolute
+  z-index: 1001
+  top: 0px
+  left: 12px
+
+
+.aboutus-slick-subtitle
+  margin-top: 8px
+  text-align: center
+  font-size: 13px
+
+
+//-----------------Gallery-------------------------
+
+.works-ul
+  ul
+    display: flex
+    justify-content: center
+    margin-top: 26px
+    li 
+      list-style-type: none
+      &:nth-child(n+2)
+        margin-left: 25px
+
+.gallery
+  margin-top: 45px
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-around
+ 
+.gallery-img
+  position: relative
+  margin-top: 25px
+
+.gallery-img:hover
+  .gallery-hover
+    display: block
+
+
+.gallery-hover
+  background-color: #c0301c
+  position: absolute
+  top: 0px;
+  left: 0px
+  width: 360px
+  height: 320px
+  opacity: 0.7
+  display: none
+
+.gallery-hover-title
+  font-weight: 700
+  color: #FFFFFF
+  text-align: center
+  width: 360px
+  font-size: 17px
+  margin-top: 105px
+
+.gallery-hover-subtitle
+  font-family: $rob
+  color: #FFFFFF
+  text-align: center
+  width: 360px
+  font-size: 12px
+  margin-top: 9px
+
+.gallery-hover-button
+  display: block
+  width: 100px
+  height: 38px
+  background-color: #FFFFFF
+  text-decoration: none
+  text-align: center
+  text-transform: uppercase
+  line-height: 38px
+  color: #c0301c
+  font-weight: 700
+  margin: 25px auto
+
+
+
+//-----------------Our-------------------------
+
+
+#our 
+  height: 369px
+  width: 100%
+  background-image: url('../img/cup.png')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+  margin-top: 100px
+
+h5
+  font-family: $rob
+  font-size: 30px
+  color: #ffffff
+  text-align: center
+  padding-top: 90px
+  font-weight: 400
+  span 
+    text-transform: uppercase
+
+
+h6
+  font-family: $rob
+  font-size: 30px
+  color: #ffffff
+  text-align: center
+  padding-top: 5px
+  font-weight: 400
+  span 
+    text-transform: uppercase
+
+.our-button
+  width: 176px
+  height: 46px
+  font-family: $rob
+  border: 2px solid #ffffff
+  color: #ffffff
+  text-decoration: none
+  display: block
+  margin: 45px auto 0px auto
+  text-align: center
+  text-transform: uppercase
+  line-height: 46px
+
+
+
+//-----------------Blog-------------------------
+
+#blog
+  margin-bottom: 50px
+
+.content
+  margin-top: 70px
+  display: flex
+
+  img
+    width: 100%
+    height: 100%
+
+.news-capsule
+  margin-left: 44px
+
+.news-header
+  display: flex
+
+.news-date
+  height: 74px
+  width: 74px
+  border: 2px solid #555555
+
+.news-date-num
+  font-size: 25px
+  font-weight: 700
+  text-align: center
+  margin-top: 12px
+
+.news-date-str
+  text-transform: uppercase
+  font-size: 14px
+  font-weight: 700
+  text-align: center
+
+.news-header-title
+  margin-left: 26px
+  margin-top: 14px
+  text-transform: uppercase
+  font-weight: 700
+
+.news-header-subtitle
+  font-family: $rob 
+  font-size: 13px
+  margin-left: 26px
+  margin-top: 10px
+
+.news-text
+  font-family: $rob
+  margin-top: 18px
+  font-size: 14px
+  line-height: 23px
+  text-align: justify
+
+.news-read
+  text-transform: uppercase
+  text-decoration: none
+  font-weight: 700
+  font-size: 14px
+  margin-top: 10px
+  display: block
+  color: #c0301c
+
+//-----------------Comp-------------------------
+
+#company
+  padding-top: 150px
+  padding-bottom: 123px
+
+.comp-slick
+  margin-top: 0px
+
+.comp-img-box
+  display: flex
+  justify-content: center
+  align-items: center
+  img 
+    height: 100%
+    margin: 0px 30px
+
+.comp-text
+  margin-top: 60px
+  text-align: center
+  line-height: 30px
+
+.comp-footer
+  text-align: center
+  font-size: 18px
+  margin-top: 32px
+
+
+//-----------------Get-------------------------
+
+#get
+  padding-bottom: 80px
+
+.get-box
+  margin-top: 72px
+  min-height: 320px
+  display: flex
+  justify-content: space-between
+
+
+.get-tel, .get-email
+  margin-top: 32px
+
+  i 
+    float: left
+
+.get-adress
+  i
+    font-size: 21px
+    margin-left: 5px
+    float: left
+
+.get-tel
+  i
+    font-size: 26px
+    margin-left: 5px
+
+.get-email
+  i
+    font-size: 15px
+    margin-left: 5px
+
+
+.get-adress, .get-tel, .get-email
+  .get-cont-title
+    margin-left: 32px
+    font-size: 14px
+    font-weight: 700
+    text-transform: uppercase
+
+
+
+.get-adress, .get-tel, .get-email
+  .get-cont-subtitle
+    margin-left: 32px
+    font-size: 11px
+    margin-top: 10px
+    line-height: 20px
+
+form
+  max-width: 730px
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+
+  textarea
+    width: 100%
+    min-height: 70px
+    padding-left: 15px
+    padding-top: 15px
+
+    &:focus
+      border: 1px solid red
+      outline-color: red;
+      outline-width: 1px;
+
+  input
+    width: 47%
+    height: 40px
+    padding-left: 10px
+    
+    &:focus
+      border: 1px solid red
+      outline-color: red;
+      outline-width: 1px;
+
+.user-submit
+  max-width: 170px
+  margin-top: 20px
+  height: 44px
+  background-color: #FFFFFF
+  border: 1px solid rgb(169, 169, 169)
+  color: rgb(169, 169, 169)
+
+.user-reply
+  margin-top: 32px
+  font-size: 11px
+  text-align: left
+  width: 72%
+
+  ////-----------------Footer-------------------------
+
+
+footer
+  height: 300px
+  background-color: #c0301c
+
+.footer-link
+  display: flex
+  justify-content: center
+  padding-top: 100px
+
+  a 
+    color: #FFFFFF
+    border: 2px solid #FFFFFF
+    height: 30px 
+    width: 30px
+    display: block
+    margin: 0px 8px
+    border-radius: 17px
+    text-align: center
+    line-height: 30px
+    font-size: 19px
+
+.footer-text
+  text-align: center
+  font-size: 11px
+  text-transform: uppercase
+  font-weight: 700
+  color: #ffffff
+
+  &:before 
+    width: 50px
+    height: 2px
+    background-color: #ffffff
+    display: block
+    content: ''
+    margin: 30px auto
+
+
+
+
+
+/////------------------MEDIA------------------------------
+
+@media screen and (max-width: 1199px)
+  .container
+    max-width: 970px
+  
+  .services-capsule 
+    padding: 0px 10px
+  
+  .aboutus-slick-hover
+    left: 0px
+    width: 243px
+
+@media screen and (max-width: 991px)
+  .container
+    max-width: 750px
+
+  .bars
+    display: block
+  
+  #menu 
+    display: none
+  
+  .aboutus-slick-hover
+    width: 250px
+
+  h1
+    margin-top: 200px
+
+
+
+
+@media screen and (max-width: 767px)
+  .container
+    max-width: 96%
+
+  .services-box 
+    flex-wrap: wrap
+    justify-content: space-around
+
+  .services-capsule 
+    min-width: 300px
+
+  .aboutus-slick-hover
+    width: 241px
+
+  .aboutus-slick-img
+    overflow: hidden
+
+  .news-capsule
+    width: 100%
+    margin-left: 10px
+
+  .comp-img-box
+    flex-wrap: wrap;
+    
+    img 
+      padding: 15px 0px
+
+  .get-box
+    flex-wrap: wrap
+
+  form 
+    margin-top: 50px
+
+  form input
+    margin-bottom: 20px
+  
+@media screen and (max-width: 599px)
+
+  .aboutus-slick-img:hover 
+    .aboutus-slick-hover 
+      display: none
+
+  .aboutus-capsule
+    width: 45%
+
+  .main-subtitle ul
+    font-size: 11px
+  
+  form input
+    width: 100%
